@@ -13,7 +13,7 @@ delay(2000);
 Serial.println("Preparare i campioni di colori per il test e ricordarsi di mantenere i sensori ad una distanza di circa 1mm dal campione");
 delay(5000);
 Serial.println("PROVA BIANCO");
-Serial.println("")
+Serial.println("Spostare i sensori sul campione di colore bianco");
 }
 
 void loop() {
