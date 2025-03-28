@@ -1,5 +1,6 @@
 /*Programma di test per la scheda CNY70
 Questo programma fa un test del riconoscimento del bianco e del nero e della variazione di potenza dei CNY70
+Per eseguire questo test avete bisogno di due campioni di colore (uno bianco e uno nero) e un cellulare con la fotocamera funzionante
 Lista collegamenti tra Arduino e la shceda CNY70
 Scheda CNY + = 5V Arduino
 Scheda CNY - = GND Arduino
