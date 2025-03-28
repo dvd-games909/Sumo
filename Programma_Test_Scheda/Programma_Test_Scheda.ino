@@ -1,5 +1,12 @@
 /*Programma di test per la scheda CNY70
 Questo programma fa un test del riconoscimento del bianco e del nero e della variazione di potenza dei CNY70
+Lista collegamenti tra Arduino e la shceda CNY70
+Scheda CNY + = 5V Arduino
+Scheda CNY - = GND Arduino
+Shceda CNY K = pin 11 Arduino
+Shceda CNY A0 = pin A0 Arduino
+Shceda CNY A1 = pin A1 Arduino
+Shceda CNY A2 = pin A2 Arduino
 */
 #define CNY0 A0
 #define CNY1 A1
