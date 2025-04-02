@@ -8,6 +8,7 @@ Shceda CNY K = pin 11 Arduino
 Shceda CNY A0 = pin A0 Arduino
 Shceda CNY A1 = pin A1 Arduino
 Shceda CNY A2 = pin A2 Arduino
+Copyright Davide Borghi
 */
 #define CNY0 A0
 #define CNY1 A1
