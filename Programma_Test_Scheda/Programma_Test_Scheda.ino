@@ -13,15 +13,15 @@ Copyright Davide Borghi
 #define CNY0 A0
 #define CNY1 A1
 #define CNY2 A2
-#define potenza 11
+#define PINpotenza 11
 String stringa;
 char c = " ";
 void setup() {
   Serial.begin(9600);
-  pinMode(potenza, OUTPUT);
+  pinMode(PINpotenza, OUTPUT);
   Serial.println("PROGRAMMA DI TEST SCHEDA CNY70");
   delay(2000);
-  analogWrite(potenza, 0);
+  analogWrite(PINpotenza, 0);
   Serial.println("Controllare con la telecamera del cellulare che i CNY70 siano accesi");
   delay(5000);
   test();
@@ -94,11 +94,11 @@ void test() {
   Serial.println("Test variazione di potenza utilizzare la fotocamera del cellulare per controllare che i CNY varino la potenza del diodo a infrarossi");
   for (int i = 0; i < 20; i++) {
     for (int j = 0; j<255;j++){
-      analogWrite(potenza,j);
+      analogWrite(PINpotenza,j);
       delay(2);
     }
     for (int y = 255; y>1;y--){
-      analogWrite(potenza,y);
+      analogWrite(PINpotenza,y);
       delay(2);
     }
   }
